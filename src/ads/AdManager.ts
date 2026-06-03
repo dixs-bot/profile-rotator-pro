@@ -3,10 +3,10 @@ import { ErrorService } from '../services/ErrorService';
 
 // Fallback configuration for Test Ad Unit IDs if env variables are empty
 const APP_ID = process.env.EXPO_PUBLIC_ADMOB_APP_ID || 'ca-app-pub-3940256099942544~3347511713';
-const BANNER_ID = process.env.EXPO_PUBLIC_ADMOB_BANNER_ID || 'ca-app-pub-3940256099942544/6300978111';
-const INTERSTITIAL_ID = process.env.EXPO_PUBLIC_ADMOB_INTERSTITIAL_ID || 'ca-app-pub-3940256099942544/1033173712';
-const REWARDED_ID = process.env.EXPO_PUBLIC_ADMOB_REWARDED_ID || 'ca-app-pub-3940256099942544/5224354917';
-const REWARDED_INTERSTITIAL_ID = process.env.EXPO_PUBLIC_ADMOB_REWARDED_INTERSTITIAL_ID || 'ca-app-pub-3940256099942544/5354046379';
+const BANNER_ID = process.env.EXPO_PUBLIC_ADMOB_BANNER_ID || 'ca-app-pub-9104547576623729/5105939285';
+const INTERSTITIAL_ID = process.env.EXPO_PUBLIC_ADMOB_INTERSTITIAL_ID || 'ca-app-pub-9104547576623729/2127736391';
+const REWARDED_ID = process.env.EXPO_PUBLIC_ADMOB_REWARDED_ID || 'ca-app-pub-9104547576623729/7145249039';
+const REWARDED_INTERSTITIAL_ID = process.env.EXPO_PUBLIC_ADMOB_REWARDED_INTERSTITIAL_ID || 'ca-app-pub-9104547576623729/9814654729';
 
 // Frequency cap limit: 1 interstitial ad every 2 minutes (120,000 milliseconds)
 export const FREQUENCY_CAP_MS = 120000;

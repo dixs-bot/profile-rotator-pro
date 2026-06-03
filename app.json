@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "ProfileX",
+    "slug": "profilex",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "scheme": "profilex",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "android": {
+      "package": "com.dixs.profilex",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "bundleIdentifier": "com.dixs.profilex",
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "appName": "ProfileX",
+      "appVersion": "2.0.0",
+      "router": {},
+      "eas": {
+        "projectId": "2c8104c7-1ebb-4d30-b275-2e181d47b551"
+      }
+    }
+  }
+}
